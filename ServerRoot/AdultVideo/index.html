@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Adult Video</title>
+    <script>
+      var boolPassword = false;
+      var password="";
+      password = prompt('Please enter the password:');
+      while (true)
+      {
+        if (password == 'fengod')
+        {
+          boolPassword = true;
+          break;
+        } else
+        {
+          boolPassword = false;
+          password = prompt('PASSWORD ERROR, PLEASE RETRY: ');
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <script>
+      if (boolPassword == false)
+      {
+        while(true)
+        {
+          alert("You have no permission.");
+        }
+      } else 
+      {
+        alert("Welcome, My Lord!");
+      }
+    </script>
+    <h2>Index</h2>
+    <p>
+      <a href="osdcnddscpsdfv">Adult Video</a>
+    </p>
+  </body>
+</html>
